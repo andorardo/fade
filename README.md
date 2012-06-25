@@ -3,10 +3,10 @@ Accompanies the following article:
 
 Fast, automated implementation of temporally precise blind deconvolution of multiphasic excitatory postsynaptic currents
 
-Daniel Andor-Ardó^1,2^, Erica C. Keen^1^, A. J. Hudspeth^1^, Marcelo O. Magnasco^2^
+Daniel Andor-Ardó¹² , Erica C. Keen¹, A. J. Hudspeth¹, Marcelo O. Magnasco²
 
-^1^ Howard Hughes Medical Institute and Laboratory of Sensory Neuroscience, and
-^2^ Laboratory of Mathematical Physics, The Rockefeller University, New York, USA
+¹ Howard Hughes Medical Institute and Laboratory of Sensory Neuroscience, and
+² Laboratory of Mathematical Physics, The Rockefeller University, New York, USA
 
 *PLoS ONE* 2012
 http://dx.doi.org/10.1371/journal.pone.0038198

@@ -4,7 +4,8 @@ function m = test1D(xdim,fdim)
         xdim = 100;
     end
     if nargin<2
-        fdim = ceil(sqrt(xdim-1));
+        %fdim = ceil(sqrt(xdim-1));
+        fdim = ceil(10);
         fdim = fdim+mod(fdim,2)-1;
     end
     assert(mod(fdim,2)==1);
@@ -17,7 +18,7 @@ function m = test1D(xdim,fdim)
     f(1:fdim) = normpdf(6*((0:fdim-1)/(fdim-1)-0.5),0,1)/normpdf(0,0,1);
     x = conv2(f,sorig);
     x = x(1:xdim);
-    sigma2 = (0.01)^2;
+    sigma2 = (0.03)^2;
     x = x+sqrt(sigma2)*randn(size(x));
 
     figure(1); clf;
@@ -33,9 +34,9 @@ function m = test1D(xdim,fdim)
     drawnow;
 
     m = MEMDeconvolution(x,f);
-    %m.sigma2 = sigma2;
+    m.sigma2 = sigma2;
     m.alpha = 1e3;
-    m.stopMethod = 2; % Autonoise
+    m.stopMethod = 1; % Autonoise
     m.MaximizeEvidenceAlphaOnly;
     subplot(5,4,4);
     s = reshape(m.s,xdim,1);
@@ -43,7 +44,7 @@ function m = test1D(xdim,fdim)
     title(['s, alpha=' num2str(m.alpha)]);
     drawnow;
 
-    alphas = logspace(5,-2,8);
+    alphas = logspace(3,-4,8);
     for k=1:length(alphas)
         m.alpha = alphas(k);
         m.sConverge;
