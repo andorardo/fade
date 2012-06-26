@@ -113,7 +113,7 @@ classdef approximateInversion
 
         	K = 1;
             Alpha(K) = u2;
-        	es = g/norm(g);
+        	es = {g/norm(g)};
             while K < Kmax && abs(deltaQ/Q) > tol
                 if K == 1
                     h = g;
@@ -128,7 +128,7 @@ classdef approximateInversion
                 g = g - Ah .* gh(K)./hAh(K);
                 g2 = g'*g;
                 Alpha(K+1) = g2;
-                es(:,end+1) = g./sqrt(g2);
+                es{K+1} = g./sqrt(g2);
                 Gamma(K) = Alpha(K+1) / Alpha(K);
 
                 if K == 1
@@ -166,7 +166,7 @@ classdef approximateInversion
                 tmp = approximateInversion.TriSolve(TOff, TMain, TOff, uhat);
             end
 %             verb > 3 && Print["[uhat] = ", Dimensions[uhat], "; [es{1:K-1}] = ", Dimensions[Take[es,{1,K-1}]], ", [tmp] = ", Dimensions[tmp]];
-            res = es(:,1:K-1) * tmp;
+            res = cell2mat(es(1:K-1)) * tmp;
             res = reshape(res,r,c);
 %             verb > 3 && Print["[res] = ", Dimensions[res]];
             if verb > 0 && K == Kmax

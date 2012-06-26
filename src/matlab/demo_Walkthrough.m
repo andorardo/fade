@@ -25,6 +25,7 @@ load([scriptDir filesep '..' filesep 'resources' filesep 'demodata.dat']);
 
 %% Construct EPSC deconvolution object
 F = FADE(20e3,demodata(1:1e4));
+F.threshold = 10;
 F.smoothing = 0;
 
 
@@ -39,6 +40,7 @@ end
 
 F2 = FADE(20e3,demodata,F.f);
 F2.hFig = F.hFig;
+F2.threshold = 10;
 F2.smoothing = 0;
 F2.update;
 % Add polish:

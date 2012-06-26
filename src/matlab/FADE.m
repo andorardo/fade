@@ -157,7 +157,9 @@ classdef FADE < MEMDeconvolution
             self.baseline = self.baseline - smoothResid;
             
             % Filter estimation
-            self.f = self.filterEstimate('method','lp','refinepeak',false,'peakposition',25);
+            fnew = self.filterEstimate('method','lp','refinepeak',false,'peakposition',25);
+            fnew = fnew.*double(fnew>0);
+            self.f = fnew;
 
             % Some record keeping
             self.appendStats;
