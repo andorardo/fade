@@ -17,7 +17,7 @@ Used in the following articles:
 
 1. [The Unitary Event Underlying Multiquantal EPSCs at a Hair Cell's Ribbon Synapse](http://dx.doi.org/10.1523/JNEUROSCI.0514-09.2009)
 
-   Geng-Lin Li¹, Erica C. Keen², Daniel Andor-Ardó², A. J. Hudspeth², and Henrique von Gersdorff¹
+   Geng-Lin Li, Erica C. Keen, Daniel Andor-Ardó, A. J. Hudspeth, and Henrique von Gersdorff
 
    *The Journal of Neuroscience* **29**, 7558–7568 (2009) [http://dx.doi.org/10.1523/JNEUROSCI.0514-09.2009](http://dx.doi.org/10.1523/JNEUROSCI.0514-09.2009)
 
