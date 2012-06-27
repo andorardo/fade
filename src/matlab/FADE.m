@@ -82,7 +82,7 @@ classdef FADE < MEMDeconvolution
                 sz = filter(ones(w,1),1,d);
                 sz = sz(w:end);
                 [~,IX] = sort(sz);
-                IX = IX(ceil(length(IX)/2));
+                IX = IX(ceil(length(IX)/2.1));
                 e1 = events(IX);
                 e2 = e1 + max(length(self.f),events(IX+w-1)-e1);
                 de = floor((e2-e1)/8);

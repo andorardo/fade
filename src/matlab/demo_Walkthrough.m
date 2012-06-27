@@ -35,7 +35,7 @@ for k=1:6
     F.update;
 end
 
-
+return;
 %% Plot some statistics of the larger dataset
 
 F2 = FADE(20e3,demodata,F.f);
