@@ -11,7 +11,7 @@ Described in the following article:
   ¹ Howard Hughes Medical Institute and Laboratory of Sensory Neuroscience, and
   ² Laboratory of Mathematical Physics, The Rockefeller University, New York, USA
 
-  *PLoS ONE* **7**(6): e38198 (2012) [http://dx.plos.org/10.1371/journal.pone.0038198](http://dx.doi.org/10.1371/journal.pone.0038198)
+  *PLoS ONE* **7**(6): e38198 (2012) [http://dx.plos.org/10.1371/journal.pone.0038198](http://dx.plos.org/10.1371/journal.pone.0038198)
 
 Used in the following articles:
 
