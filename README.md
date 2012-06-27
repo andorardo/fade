@@ -4,22 +4,22 @@
 
 Described in the following article:
 
-* Fast, automated implementation of temporally precise blind deconvolution of multiphasic excitatory postsynaptic currents
+* [Fast, automated implementation of temporally precise blind deconvolution of multiphasic excitatory postsynaptic currents](http://dx.plos.org/10.1371/journal.pone.0038198)
 
   Daniel Andor-Ardó¹² , Erica C. Keen¹, A. J. Hudspeth¹, Marcelo O. Magnasco²
  
   ¹ Howard Hughes Medical Institute and Laboratory of Sensory Neuroscience, and
   ² Laboratory of Mathematical Physics, The Rockefeller University, New York, USA
 
-  *PLoS ONE* (2012) http://dx.doi.org/10.1371/journal.pone.0038198
+  *PLoS ONE* **7**(6): e38198 (2012) [http://dx.plos.org/10.1371/journal.pone.0038198](http://dx.doi.org/10.1371/journal.pone.0038198)
 
 Used in the following articles:
 
-1. The Unitary Event Underlying Multiquantal EPSCs at a Hair Cell's Ribbon Synapse
+1. [The Unitary Event Underlying Multiquantal EPSCs at a Hair Cell's Ribbon Synapse](http://dx.doi.org/10.1523/JNEUROSCI.0514-09.2009)
 
    Geng-Lin Li¹, Erica C. Keen², Daniel Andor-Ardó², A. J. Hudspeth², and Henrique von Gersdorff¹
 
-   *The Journal of Neuroscience* **29**, 7558–7568 (2009) http://dx.doi.org/10.1523/JNEUROSCI.0514-09.2009
+   *The Journal of Neuroscience* **29**, 7558–7568 (2009) [http://dx.doi.org/10.1523/JNEUROSCI.0514-09.2009](http://dx.doi.org/10.1523/JNEUROSCI.0514-09.2009)
 
 Author: Daniel Andor-Ardó, danielandor@gmail.com
 
