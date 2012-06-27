@@ -35,11 +35,10 @@ for k=1:6
     F.update;
 end
 
-return;
 %% Plot some statistics of the larger dataset
 
 F2 = FADE(20e3,demodata,F.f);
-F2.hFig = F.hFig;
+%F2.hFig = F.hFig;
 F2.threshold = 10;
 F2.smoothing = 0;
 F2.update;
