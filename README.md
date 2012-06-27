@@ -1,4 +1,4 @@
-Fast automated blind deconvolution of multi-phasic EPSCs.
+### Fast automated blind deconvolution of multi-phasic EPSCs.
 
 ![Screenshot](http://github.com/andorardo/fade/raw/master/doc/images/screenshot1.png)
 
